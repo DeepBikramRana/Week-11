@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        let a = 10;
+    {
+        let a = 12;
+        console.log(a);
+    }
+    console.log(a);
+
+    const dictionary = {
+        X1 : "Deep",
+        Z1 : "Sea",
+        X2 : "Deep",
+        Z2 : "Thoughts",
+        X3 : "Deep",
+        Z3 : "Blue"
+    }
+    console.log(dictionary);
+    age = prompt("What is your age? Please enter it : ")
+    if (age<=0){
+        alert("Invalid");
+    }else if(age<=12){
+        alert("Infant");
+    }else if(age<=19){
+        alert("Teenager");
+    }else if(age<=50){
+        alert("Adult");
+    }else{
+        alert("Old");
+    }
+
+    let sum=0;
+    for(i=0;i<=100;i++){
+    sum=sum+i;
+    }
+    console.log(sum);
+
+    function total(a,b){
+        sum1=a+b;
+        return sum1;
+    }
+
+    console.log(total(5,10));
+
+    function aoc(r){
+        prompt("Enter the radius: ")
+        const pi = 3.14
+        areaofc = pi*r*r
+        return areaofc
+    }
+    alert(areaofc)
+    </script>   
+</body>
+</html>
